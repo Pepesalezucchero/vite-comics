@@ -62,16 +62,16 @@ export default {
 }
 .footer-left, .footer-right {
     width: 40%;
-    margin: 0 auto;
 }
 
 .footer-left {
     display: flex;
+    margin-right: auto;
 }
 
 .col {
     width: calc(80% / 3);
-    margin: 0 auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -94,7 +94,7 @@ li {
 }
 
 .logo-jumbotron {
-    min-height: 325px;
+    min-height: 350px;
     background-size: cover;
     background-position-y: 50%;
     background-image: url(../assets/img/dc-logo-bg.png);
