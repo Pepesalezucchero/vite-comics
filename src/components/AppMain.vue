@@ -5,9 +5,9 @@ export default {
 </script>
 
 <template>
-    <main class="container">
+    <section class="container">
         <h1>Content goes here</h1>
-    </main>
+    </section>
 </template>
 
 <style lang="scss" scoped>

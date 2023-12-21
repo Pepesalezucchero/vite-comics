@@ -5,9 +5,14 @@ export default {
 </script>
 
 <template>
-    <h3>Prova</h3>
+    <section class="container">
+        
+    </section>
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/general.scss' as *;
+@use '../styles/partials/variables' as *;
+
 
 </style>

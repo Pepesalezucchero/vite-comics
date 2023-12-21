@@ -20,14 +20,14 @@ export default {
   <div class="container">
     <AppHeader />
   </div>
-  <div class="main-backgound">
+  <main>
+    <div class="main-backgound">
       <AppMain />
-  </div>
-  <div class="buy-section-backgound">
-    <div class="container">
+    </div>
+    <div class="buy-section-backgound">
       <AppBuySection />
     </div>
-  </div>
+  </main>
   <div class="footer-backgound">
     <div class="container">
       <AppFooter />

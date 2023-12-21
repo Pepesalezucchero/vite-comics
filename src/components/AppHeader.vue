@@ -59,6 +59,7 @@ export default {
             &.selected,
             &:hover {
                 color: $blue;
+                border-bottom: $blue 1px solid;
             }
         }
     }
