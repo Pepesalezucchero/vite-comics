@@ -24,6 +24,8 @@ export default {
   <AppSubFooter />
 </template>
 
-<style scoped>
+<style lang="scss">
+@use './styles/partials/variables' as *;
+@use './styles/general.scss' as *;
 
 </style>
