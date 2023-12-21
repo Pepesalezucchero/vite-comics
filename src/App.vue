@@ -28,16 +28,14 @@ export default {
       <AppBuySection />
     </div>
   </main>
-  <div class="footer-backgound">
-    <div class="container">
+  <footer>
+    <div class="footer-backgound">
       <AppFooter />
     </div>
-  </div>
-  <div class="sub-footer-backgound">
-    <div class="container">
+    <div class="sub-footer-backgound">
       <AppSubFooter />
     </div>
-  </div>
+  </footer>
 </template>
 
 <style lang="scss">
@@ -57,7 +55,4 @@ export default {
 .sub-footer-backgound {
   background-color: $grey;
 }
-
-
-
 </style>
