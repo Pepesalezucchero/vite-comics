@@ -43,6 +43,10 @@ export default {
     color: $white;
     font-size: 18px;
     font-weight: 500;
+
+    &:hover {
+        box-shadow: 0px 0px 25px 10px #9b97973f;
+    }
 }
 
 h1 {

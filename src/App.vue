@@ -49,9 +49,10 @@ export default {
 .buy-section-backgound {
   background-color: $blue;
 }
-/*.footer-backgound {
-
-}*/
+.footer-backgound {
+  background-image: url(../src/assets/img/footer-bg.jpg);
+  background-size: cover;
+}
 .sub-footer-backgound {
   background-color: $grey;
 }
