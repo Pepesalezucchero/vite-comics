@@ -7,7 +7,7 @@ export default {
                 {
                     text:"digital comics",
                     url:"#",
-                    img:".."
+                    img:""
                 },
                 {
                     text:"dc merchandise",
@@ -44,6 +44,8 @@ export default {
                    <span>{{ buy.text }}</span>
                 </a>
             </li>
+
+            <img src="" alt="">
         </ul>
     </section>
 </template>
