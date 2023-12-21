@@ -58,6 +58,7 @@ export default {
 <style lang="scss" scoped>
 @use '../src/styles/partials/variables' as *;
 .container {
+    min-height: 350px;
     display: flex;
 }
 .footer-left, .footer-right {
@@ -94,9 +95,10 @@ li {
 }
 
 .logo-jumbotron {
-    min-height: 350px;
+    height: 100%;
+    width: 100%;
     background-size: cover;
-    background-position-y: 50%;
+    background-position: center;
     background-image: url(../assets/img/dc-logo-bg.png);
 }
 </style>

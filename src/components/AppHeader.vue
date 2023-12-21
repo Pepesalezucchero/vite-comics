@@ -1,6 +1,62 @@
 <script>
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
+    data() {
+        return {
+            links: [
+                {
+                    text:"characters",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"comics",
+                    url:"#",
+                    current: true
+                },
+                {
+                    text:"movies",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"tv",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"games",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:" collectibles",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"videos",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"fans",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"news",
+                    url:"#",
+                    current: false
+                },
+                {
+                    text:"shop",
+                    url:"#",
+                    current: false
+                }
+            ]
+        }
+    }
 }
 </script>
 
@@ -11,16 +67,11 @@ export default {
         </div>
         <div class="right-navbar">
             <ul>
-                <a href="#"><li>characters</li></a>
-                <a href="#" class="selected"><li>comics</li></a>
-                <a href="#"><li>movies</li></a>
-                <a href="#"><li>tv</li></a>
-                <a href="#"><li>games</li></a>
-                <a href="#"><li>collectibles</li></a>
-                <a href="#"><li>videos</li></a>
-                <a href="#"><li>fans</li></a>
-                <a href="#"><li>news</li></a>
-                <a href="#"><li>shop</li></a>
+                <li v-for="link in links">
+                    <a :href="link.url" :class="link.current ? 'selected' : ''">
+                        {{ link.text }}
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
