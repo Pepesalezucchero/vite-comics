@@ -21,9 +21,7 @@ export default {
     <AppHeader />
   </div>
   <div class="main-backgound">
-    <div class="container">
       <AppMain />
-    </div>
   </div>
   <div class="buy-section-backgound">
     <div class="container">
