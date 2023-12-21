@@ -53,12 +53,12 @@ export default {
         a {
             text-transform: uppercase;
             font-weight: 500;
-            color: $tertiary;
+            color: $grey;
             margin-left: 25px;
 
             &.selected,
             &:hover {
-                color: $primary;
+                color: $blue;
             }
         }
     }
