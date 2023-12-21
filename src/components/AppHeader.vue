@@ -84,6 +84,7 @@ export default {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    height: 120px;
 }
 #logo {
     width: 7%;
@@ -105,6 +106,7 @@ export default {
             font-weight: 500;
             color: $grey;
             margin-left: 25px;
+            padding-bottom: 47px;
 
             &.selected,
             &:hover {
