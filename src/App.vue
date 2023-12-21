@@ -17,15 +17,19 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
-  <AppMain />
-  <AppBuySection />
-  <AppFooter />
-  <AppSubFooter />
+  <div class="container">
+    <AppHeader />
+    <AppMain />
+    <AppBuySection />
+    <AppFooter />
+    <AppSubFooter />
+  </div>
 </template>
 
 <style lang="scss">
-@use './styles/partials/variables' as *;
-@use './styles/general.scss' as *;
+@use '../src/styles/general.scss' as *;
+@use '../src/styles/partials/variables' as *;
+
+
 
 </style>
