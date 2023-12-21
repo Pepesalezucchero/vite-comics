@@ -21,7 +21,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/general.scss' as *;
 @use '../styles/partials/variables' as *;
 
 .container {
@@ -63,5 +62,4 @@ img {
         box-shadow: 0px 0px 25px 10px #9b97973f;
     }
 }
-
 </style>
