@@ -7,28 +7,28 @@ export default {
                 {
                     text:"digital comics",
                     url:"#",
-                    img:""
+                    img:"img/buy-comics-digital-comics.png"
                 },
                 {
                     text:"dc merchandise",
                     url:"#",
-                    img:"../assets/img/buy-comics-digital-comics.png"
+                    img:"img/buy-comics-merchandise.png"
                 },
                 {
                     text:"subscription",
                     url:"#",
-                    img:"../assets/img/buy-comics-digital-comics.png"
+                    img:"img/buy-comics-subscriptions.png"
                 },
                 {
                     text:"comic shop locator",
                     url:"#",
-                    img:"../assets/img/buy-comics-digital-comics.png"
+                    img:"img/buy-comics-shop-locator.png"
                 },
                 {
                     text:"dc power visa",
                     url:"#",
-                    img:"../assets/img/buy-comics-digital-comics.png"
-                },
+                    img:"img/buy-dc-power-visa.svg"
+                }
             ]
         }
     }
@@ -64,10 +64,11 @@ ul {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin: 0 35px;
 }
 
 img {
-    width: 50px;
+    height: 70px;
     vertical-align: middle;
     margin-right: 15px;
 }
