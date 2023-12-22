@@ -64,7 +64,7 @@ ul {
 }
 
 li {
-    width: calc(100% / 5);
+    width: 100%;
 }
 
 img {

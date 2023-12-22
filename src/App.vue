@@ -21,6 +21,9 @@ export default {
     <AppHeader />
   </div>
   <main>
+    <div class="main-jumbotron">
+
+    </div>
     <div class="main-backgound">
       <AppMain />
     </div>
@@ -42,6 +45,11 @@ export default {
 @use '../src/styles/general.scss' as *;
 @use '../src/styles/partials/variables' as *;
 
+.main-jumbotron {
+  background-image: url(../src/assets/img/jumbotron.jpg);
+  background-size: cover;
+  min-height: 400px;
+}
 .main-backgound {
   background-color: $dark-light;
 }
