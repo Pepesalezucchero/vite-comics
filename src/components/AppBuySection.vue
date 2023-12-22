@@ -38,7 +38,7 @@ export default {
 <template>
     <section class="container">
         <ul>
-            <li v-for="(buy, i) in buys" :key="i">
+            <li v-for="buy in buys">
                 <a href="#">
                    <img :src=buy.img :alt= buy.text> 
                    <span>{{ buy.text }}</span>
