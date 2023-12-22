@@ -44,8 +44,6 @@ export default {
                    <span>{{ buy.text }}</span>
                 </a>
             </li>
-
-            <img src="" alt="">
         </ul>
     </section>
 </template>
@@ -56,19 +54,21 @@ export default {
 .container {
     min-height: 175px;
     display: flex;
-    justify-content: space-between;
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0 35px;
 }
 
+li {
+    width: calc(100% / 5);
+}
+
 img {
-    height: 70px;
+    height: 60px;
     vertical-align: middle;
     margin-right: 15px;
 }

@@ -45,7 +45,6 @@ export default {
 .main-backgound {
   background-color: $dark-light;
 }
-
 .buy-section-backgound {
   background-color: $blue;
 }
